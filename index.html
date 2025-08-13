@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>افضل مہیوڈی - موبائل شاپ</title>
+  <meta name="description" content="افضل مہیوڈی موبائل شاپ — نئے اور ریفربشڈ موبائل، ایکسیسریز، سروس اور واٹس ایپ پر آرڈر۔" />
+  <style>
+    /* سادہ responsive اسٹائل */
+    :root{--accent:#0b74de;--muted:#666}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,'Noto Sans Arabic', 'Noto Nastaliq Urdu', sans-serif;margin:0;background:#f7f9fc;color:#111}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    header{background:linear-gradient(90deg,var(--accent),#006bb3);color:white;padding:24px;border-radius:12px}
+    .brand{display:flex;align-items:center;gap:16px}
+    .logo{width:64px;height:64px;border-radius:12px;background:white;color:var(--accent);display:grid;place-items:center;font-weight:700}
+    h1{margin:0;font-size:22px}
+    p.lead{margin:6px 0 0;color:rgba(255,255,255,0.95)}
+    nav{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap}
+    nav a{color:white;text-decoration:none;padding:8px 12px;background:rgba(255,255,255,0.08);border-radius:8px;font-size:14px}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    .card{background:white;padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(11,20,40,0.06)}
+    .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+    .product{border:1px solid #eef3fb;padding:10px;border-radius:10px;text-align:center}
+    .product img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+    .price{color:var(--accent);font-weight:700;margin-top:6px}
+
+    .contact a{display:inline-block;margin-top:8px;padding:10px 14px;background:var(--accent);color:white;border-radius:8px;text-decoration:none}
+
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:14px}
+
+    /* responsive */
+    @media (max-width:900px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">آف</div>
+        <div>
+          <h1>افضل مہیوڈی - موبائل شاپ</h1>
+          <p class="lead">نئے اور ریفربشڈ موبائل، ایکسیسریز، سروس — بہترین قیمتیں اور فوری واٹس ایپ سروس</p>
+          <nav>
+            <a href="#products">مصنوعات</a>
+            <a href="#offers">آفرز</a>
+            <a href="#contact">رابطہ کریں</a>
+            <a href="#gallery">گیلری</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section id="products" class="card">
+          <h2>مقبول موبائلز</h2>
+          <div class="products">
+            <div class="product">
+              <img src="https://via.placeholder.com/300x200?text=Phone+1" alt="Phone 1">
+              <div>سام سنگ گلیکسی A54</div>
+              <div class="price">PKR 72,500</div>
+            </div>
+            <div class="product">
+              <img src="https://via.placeholder.com/300x200?text=Phone+2" alt="Phone 2">
+              <div>آئی فون 13 پرو</div>
+              <div class="price">PKR 200,000</div>
+            </div>
+            <div class="product">
+              <img src="https://via.placeholder.com/300x200?text=Refurbished" alt="Refurbished">
+              <div>ریفربشڈ فون - اچھی کنڈیشن</div>
+              <div class="price">PKR 28,000 سے</div>
+            </div>
+            <div class="product">
+              <img src="https://via.placeholder.com/300x200?text=Accessories" alt="Accessories">
+              <div>کیس، چارجر، ہیڈفون</div>
+              <div class="price">PKR 500 - 5,000</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="offers" class="card" style="margin-top:14px;">
+          <h2>خصوصی آفرز</h2>
+          <ul>
+            <li>واٹس ایپ پر آرڈر کرنے پر فری ریال اسٹریچر</li>
+            <li>ادائیگی پر 2 ماہ تک قسطیں (شرائط لاگو)</li>
+            <li>پرانی فون ٹریڈ-ان پر اچھا ڈسکاؤنٹ</li>
+          </ul>
+        </section>
+
+        <section id="gallery" class="card" style="margin-top:14px;">
+          <h2>گیلری</h2>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px">
+            <img src="https://via.placeholder.com/300x200?text=Shop+1" alt="shop" style="width:100%;border-radius:8px">
+            <img src="https://via.placeholder.com/300x200?text=Shop+2" alt="shop" style="width:100%;border-radius:8px">
+            <img src="https://via.placeholder.com/300x200?text=Products" alt="products" style="width:100%;border-radius:8px">
+            <img src="https://via.placeholder.com/300x200?text=Service" alt="service" style="width:100%;border-radius:8px">
+          </div>
+        </section>
+
+        <section id="about" class="card" style="margin-top:14px;">
+          <h2>ہمارے بارے میں</h2>
+          <p>میں، افضل مہیوڈی، ایک مقامی موبائل شاپ چلا رہا ہوں — ایماندار قیمتیں، اصلی پروڈکٹس، اور بعد از فروخت سروس۔ آپ چاہیں تو واٹس ایپ پر براہِ راست آرڈر کر سکتے ہیں۔</p>
+        </section>
+      </main>
+
+      <aside>
+        <div class="card contact">
+          <h3 id="contact">رابطہ کریں</h3>
+          <p>واٹس ایپ: <strong>+92-300-1234567</strong></p>
+          <p>پتہ: مارکیٹ روڈ، آپ کا شہر</p>
+          <a href="https://wa.me/923001234567?text=%D8%B3%D9%84%D8%A7%D9%85+%D8%A7%D9%81%D8%B6%D9%84+%D8%B3%D8%B1%D9%88%3A+میں+فون+کے+بارے+میں+جاننا+چاہتا+ہوں" target="_blank" rel="noopener">واٹس ایپ پر میسج کریں</a>
+
+          <hr style="margin:12px 0">
+          <h4>کام کے اوقات</h4>
+          <p>پیر تا ہفتہ: 10:00 صبح — 8:00 شام<br>اتوار: بند</p>
+
+          <hr style="margin:12px 0">
+          <h4>مختصر رابطہ فارم</h4>
+          <form onsubmit="event.preventDefault(); alert('پیغام بھیج دیا گیا — واٹس ایپ پر براہِ راست رابطہ کریں۔');">
+            <label>نام<br><input type="text" name="name" style="width:100%;padding:8px;margin-top:6px;border-radius:6px;border:1px solid #e6eef9"></label>
+            <label style="display:block;margin-top:8px">فون نمبر<br><input type="text" name="phone" style="width:100%;padding:8px;margin-top:6px;border-radius:6px;border:1px solid #e6eef9"></label>
+            <button type="submit" style="margin-top:8px;padding:10px 12px;border-radius:8px;border:none;background:var(--accent);color:white;cursor:pointer">پیغام بھیجیں</button>
+          </form>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+          <h4>مقامی نقشہ</h4>
+          <p>نیچے اپنا گوگل میپس ایمبیڈ یا لوکیشن شامل کریں:</p>
+          <div style="background:#eef6ff;border-radius:8px;padding:8px;text-align:center;color:var(--muted)">گوگل میپس ایمبیڈ یہاں</div>
+        </div>
+
+        <div class="card" style="margin-top:14px;text-align:center;">
+          <h4>سوشل</h4>
+          <p>فیس بک | انسٹاگرام | ٹک ٹاک</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      © <span id="year"></span> افضل مہیوڈی - موبائل شاپ · تمام حقوق محفوظ
+    </footer>
+  </div>
+
+  <script>
+    // تازہ سال دکھانے کے لیے
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
